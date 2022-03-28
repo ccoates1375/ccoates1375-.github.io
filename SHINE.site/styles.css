@@ -32,7 +32,9 @@ article img {
 	height: auto;
 	margin: 20px;
 }
-
+fieldset{
+	border-radius:10px;
+}
 .grid-container {
 	display:grid;
 	grid-template-columns: repeat(3, 2fr);
