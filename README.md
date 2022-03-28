@@ -1,6 +1,4 @@
-
-<!DOCTYPE html>
-
+<html>
 <head>	
 	<title>Home</title>
 	<meta name="robots" content="noindex,nofollow">
