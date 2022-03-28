@@ -9,7 +9,10 @@ footer{
 }
 
 
-article {border-radius:20px;}
+article {
+	grid-gap:10px;
+	border-radius:20px;
+}
 
 .grid-container article {
 	margin: auto;
