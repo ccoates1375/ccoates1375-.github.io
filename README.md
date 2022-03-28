@@ -11,7 +11,7 @@
 	
 <header> 
 <div class="logo">
-	<a href="SHINE.site/index.html"><img src="file:///C|/Users/provb/Desktop/SHINE.site/images/newSHINELogo.png" alt="SHINE Logo" width="100" height="100"></a>
+	<a href="SHINE.site/index.html"><img src="SHINE.site/images/newSHINELogo.png" alt="SHINE Logo" width="100" height="100"></a>
 	
 </div>
 	
