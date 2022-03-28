@@ -48,6 +48,8 @@ article img {
 	width: 90px;
 	length:90px;
 	border-radius: 45px;
+	background-image: url(../images/blankProfile.png);
+    background-repeat: no-repeat;
 	
 }
   
