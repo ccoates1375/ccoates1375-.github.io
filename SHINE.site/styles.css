@@ -30,7 +30,7 @@ h2 {
 article img {
 	width: 100%;
 	height: auto;
-	margin: 20px;
+	
 }
 fieldset{
 	border-radius:10px;
@@ -39,7 +39,7 @@ fieldset{
 	display:grid;
 	grid-template-columns: repeat(3, 2fr);
 	grid-gap:10px;
-    flex-direction: column;
+        flex-direction: column;
 	  
 	}
 
