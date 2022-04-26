@@ -8,8 +8,11 @@ footer{
 	text-align: center;
 }
 
+article{
+	border-radius:45px;
+	
+}
 
-article {border-radius:20px;}
 
 .grid-container article {
 	margin: auto;
@@ -29,32 +32,32 @@ h2 {
 
 article img {
 	width: 100%;
-	height: auto;
-	border-radius:10px;
-	
 }
-fieldset{
-	border-radius:10px;
-}
+
 .grid-container {
 	display:grid;
 	grid-template-columns: repeat(3, 2fr);
-	grid-gap:10px;
-        flex-direction: column;
-	  
+	grid-gap:25px;
+    flex-direction: column;
+	margin: 30px;  
 	}
+
 
 
 .vol-grid-container{
 	
 	
 }
+
+fieldset{
+	border-radius:10px;
+}
+
 .blankprofile{
 	width: 90px;
 	length:90px;
-	border-radius: 45px;
-	background-image: url(../images/blankProfile.png);
-    background-repeat: no-repeat;
+	border-radius: 15px;
+	margin:10px;
 	
 }
   
@@ -169,12 +172,13 @@ input {
 	}
 
 */
-.goal {width: 65%; background-color: #E3E765;} 
+.goal {width: 65%; background-color: #;} 
 	
+/* Container for skill bar*/
 /*skills bar*/
 .container {
   height:20px;; 
-  background-color: lightslategrey; 
+  background-color: lightpink; 
   border-radius: 9px;
   }
 
@@ -186,7 +190,6 @@ input {
   padding-bottom: 1px; 
   color: white; 
 }
-
 
 
 .buttons{
@@ -250,14 +253,15 @@ body {
 	 display:grid;
 	 grid-template-columns: repeat(1, 3fr);
 	 grid-auto-rows: minmax(300px, auto);
-	 grid-gap:10px;
+	 grid-gap:50px;
 	  
 	 }
 	
 	nav { 
+	background-color:white;
 	height:125px;
 	width:125px;
-	
+	color:blue;
 	}
 	
 	li a{
@@ -266,12 +270,12 @@ body {
 	}	
 	
 	li a:visited{
-	color: white;
+	color: darkslateblue;
 	text-decoration: none;
 	}
 
 	li a:hover{
-	color:white;
+	color:darkslateblue;
 	font-weight: bold;
 	}
 	
