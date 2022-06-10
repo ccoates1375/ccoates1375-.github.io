@@ -1,6 +1,9 @@
 
 
 
+
+
+
 <head>	
 	<title>Home</title>
 	<meta name="robots" content="noindex,nofollow">
@@ -8,7 +11,7 @@
 
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="SHINE.site/styles.css" type="text/css">
+	<link rel="stylesheet" href="styles.css" type="text/css">
 </head>
 
 
@@ -37,7 +40,7 @@
 		
 <div class="artborder">	
 	
-<main class="grid-container">
+
 
 	
 <article>
@@ -45,7 +48,7 @@
 	<h2>Feel free to look around but keep in mind we are under construction...</h2>		
 </article>
 	
-</main>
+
 </div>	
 		
 <footer>
@@ -57,4 +60,3 @@
 
 </body>
 		
-
