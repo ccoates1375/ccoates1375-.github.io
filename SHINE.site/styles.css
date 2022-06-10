@@ -16,12 +16,12 @@ article{
 
 .grid-container article {
 	margin: auto;
-  	padding: 30px;
+  	padding: 25px;
   	width: 85%;
  	height: 88%;
 	border: thin solid lightblue;
 	box-shadow: 4px 7px lightblue; 
-	padding-bottom: 30px; 
+	padding-bottom: 25px; 
 	
 	}
 
