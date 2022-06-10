@@ -1,17 +1,22 @@
-<html>
+<!DOCTYPE html>
+
+
 <head>	
 	<title>Home</title>
 	<meta name="robots" content="noindex,nofollow">
+
+
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="SHINE.site/styles.css" type="text/css">
+	<link rel="stylesheet" href="styles.css" type="text/css">
 </head>
+
 
 <body>
 	
 <header> 
 <div class="logo">
-	<a href="SHINE.site/index.html"><img src="SHINE.site/images/newSHINELogo.png" alt="SHINE Logo" width="100" height="100"></a>
+	<a href="index.html"><img src="images/newSHINELogo.png" alt="SHINE Logo" width="100" height="100"></a>
 	
 </div>
 	
@@ -28,7 +33,8 @@
 	</ul>
    </div>
 </nav>
-	
+
+		
 <div class="artborder">	
 	
 <main class="grid-container">
@@ -36,23 +42,25 @@
 	<h2>How private citizens are taking Rhode Island’s housing crisis into their own hands</h2>
 	<p>Residents who never envisioned their lives on the streets are being pushed out of homes and others are becoming chronically unhoused. David Gerard O’Connor is trying to help with Operation Hunker Down, a makeshift shelter he opened on his own</p>
 	<a href="https://www.bostonglobe.com/2022/02/15/metro/ris-housing-crisis-becomes-critical-private-citizens-are-addressing-it-their-own/"><img src="images/DavidGerardOConnor.jpg" alt="SHINE Logo" width="100" height="200"></a>
-	<p><span><i>Source: </i></span>Boston Globe</p>	
+	<p><span><i>Source: </i></span>Boston Globe</p>
+	
+	
+	
 	
 </article>
 	
 <article>
-<h2>Goals</h2>
+	<h2>Goals</h2>
 	<div class="container">
-       	     <div class="skills goal"></div>
-	</div>
-	
-<h2>Testimonials...</h2>
+  <div class="skills goal"></div>
+</div>
+	<h2>Testimonials...</h2>
 	<p>(...add testimonials)&nbsp;</p>
 		
 </article>
 	
 <article>
-<h2>Services</h2>
+  <h2>Services</h2>
 	
 <p><span>Here are some resources we offer:</span></p>
 	
@@ -67,15 +75,17 @@
 	
 </article>
 	
+
 </main>
 </div>	
 		
 <footer>
 	<p>
-	&copy; SHINE.site 2022 a 501(c)3 This website is under construction. # [ccoates1375].github.io 
+	&copy; SHINE.site 2022 a 501(c)3 This website is under construction. 
 	</p>		
 </footer>
 		
+
 </body>
 		
 </html>
