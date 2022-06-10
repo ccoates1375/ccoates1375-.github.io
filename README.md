@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 
 
 <head>	
@@ -8,7 +8,7 @@
 
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="styles.css" type="text/css">
+	<link rel="stylesheet" href="SHINE.site/styles.css" type="text/css">
 </head>
 
 
@@ -16,7 +16,7 @@
 	
 <header> 
 <div class="logo">
-	<a href="index.html"><img src="images/newSHINELogo.png" alt="SHINE Logo" width="100" height="100"></a>
+	<a href="SHINE.site/index.html"><img src="SHINE.site/images/newSHINELogo.png" alt="SHINE Logo" width="100" height="100"></a>
 	
 </div>
 	
@@ -41,7 +41,7 @@
 <article> 
 	<h2>How private citizens are taking Rhode Island’s housing crisis into their own hands</h2>
 	<p>Residents who never envisioned their lives on the streets are being pushed out of homes and others are becoming chronically unhoused. David Gerard O’Connor is trying to help with Operation Hunker Down, a makeshift shelter he opened on his own</p>
-	<a href="https://www.bostonglobe.com/2022/02/15/metro/ris-housing-crisis-becomes-critical-private-citizens-are-addressing-it-their-own/"><img src="images/DavidGerardOConnor.jpg" alt="SHINE Logo" width="100" height="200"></a>
+	<a href="https://www.bostonglobe.com/2022/02/15/metro/ris-housing-crisis-becomes-critical-private-citizens-are-addressing-it-their-own/"><img src="SHINE.site/images/DavidGerardOConnor.jpg" alt="SHINE Logo" width="100" height="200"></a>
 	<p><span><i>Source: </i></span>Boston Globe</p>
 	
 	
@@ -88,4 +88,4 @@
 
 </body>
 		
-</html>
+
