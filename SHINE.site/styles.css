@@ -18,7 +18,7 @@ article{
 	margin: auto;
   	padding: 25px;
   	width: 85%;
- 	height: 88%;
+ 	height: 85%;
 	border: thin solid lightblue;
 	box-shadow: 4px 7px lightblue; 
 	padding-bottom: 20px; 
@@ -39,16 +39,10 @@ article img {
 	display:grid;
 	grid-template-columns: repeat(3, 2fr);
 	grid-gap:25px;
-    flex-direction: column;
+        flex-direction: column;
 	margin: 30px;  
 	}
 
-
-
-.vol-grid-container{
-	
-	
-}
 
 fieldset{
 	border-radius:10px;
@@ -167,13 +161,6 @@ input {
 	
 	}
 
-/*
-#wrapper{
-	width:960px;
-	length:960px;
-	}
-
-*/
 .goal {width: 65%; background-color: #;} 
 	
 /* Container for skill bar*/
