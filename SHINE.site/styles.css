@@ -16,10 +16,10 @@ article{
 
 .grid-container article {
 	margin: auto;
-  	padding: 10px;
+  	padding: 35px;
   	width: 85%;
  	height: 88%;
-	border: thin solid #fafad2;
+	border: thin solid lightblue;
 	box-shadow: 4px 7px lightblue; 
 	padding-bottom: 30px; 
 	
@@ -32,6 +32,7 @@ h2 {
 
 article img {
 	width: 100%;
+	border-radius: 30px;
 }
 
 .grid-container {
@@ -51,6 +52,7 @@ article img {
 
 fieldset{
 	border-radius:10px;
+	width: 322px;
 }
 
 .blankprofile{
@@ -279,11 +281,10 @@ body {
 	font-weight: bold;
 	}
 	
-	.navlist{
-	display:list-item;  
+	.navlist{  
 	text-align:left; 
 	text-decoration:none;
 	margin:1px;
-	list-style-image: url('images/smallsun.png')
+	
 
 	}
