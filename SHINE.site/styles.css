@@ -38,7 +38,7 @@ article img {
 .grid-container {
 	display:grid;
 	grid-template-columns: repeat(3, 2fr);
-	grid-gap:25px;
+	grid-gap:30px;
         flex-direction: column;
 	margin: 30px;  
 	}
