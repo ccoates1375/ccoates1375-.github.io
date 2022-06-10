@@ -38,44 +38,13 @@
 <div class="artborder">	
 	
 <main class="grid-container">
-<article> 
-	<h2>How private citizens are taking Rhode Island’s housing crisis into their own hands</h2>
-	<p>Residents who never envisioned their lives on the streets are being pushed out of homes and others are becoming chronically unhoused. David Gerard O’Connor is trying to help with Operation Hunker Down, a makeshift shelter he opened on his own</p>
-	<a href="https://www.bostonglobe.com/2022/02/15/metro/ris-housing-crisis-becomes-critical-private-citizens-are-addressing-it-their-own/"><img src="SHINE.site/images/DavidGerardOConnor.jpg" alt="SHINE Logo" width="100" height="200"></a>
-	<p><span><i>Source: </i></span>Boston Globe</p>
-	
-	
-	
-	
-</article>
-	
-<article>
-	<h2>Goals</h2>
-	<div class="container">
-  <div class="skills goal"></div>
-</div>
-	<h2>Testimonials...</h2>
-	<p>(...add testimonials)&nbsp;</p>
-		
-</article>
-	
-<article>
-  <h2>Services</h2>
-	
-<p><span>Here are some resources we offer:</span></p>
-	
-	<ul>
-	   <li>Connecting homeowners with skilled workers adding value to their homes.</li>
-	   <li>Providing affordable housing for boarders.</li>	
-	   <li>WrapAround Services</li>
-	   <li>Recovery Services</li>
-	   <li>Safety</li>
-	   <li>Community</li>
-	</ul>
-	
-</article>
-	
 
+	
+<article>
+	<h2>Welcome to the future home of SHINE.</h2>
+	<h2>Feel free to look around but keep in mind we are under construction...</h2>		
+</article>
+	
 </main>
 </div>	
 		
