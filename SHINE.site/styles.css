@@ -16,17 +16,18 @@ article{
 
 .grid-container article {
 	margin: auto;
-  	padding: 25px;
+  	padding: 35px;
   	width: 85%;
  	height: 85%;
 	border: thin solid lightblue;
 	box-shadow: 4px 7px lightblue; 
-	padding-bottom: 20px; 
+	padding-bottom: 30px; 
 	
 	}
 
 h2 {
 	text-align: left;
+	color: lightblue;
 	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
 	}
 
@@ -38,11 +39,17 @@ article img {
 .grid-container {
 	display:grid;
 	grid-template-columns: repeat(3, 2fr);
-	grid-gap:30px;
-        flex-direction: column;
+	grid-gap:25px;
+    flex-direction: column;
 	margin: 30px;  
 	}
 
+
+
+.vol-grid-container{
+	
+	
+}
 
 fieldset{
 	border-radius:10px;
@@ -161,6 +168,13 @@ input {
 	
 	}
 
+/*
+#wrapper{
+	width:960px;
+	length:960px;
+	}
+
+*/
 .goal {width: 65%; background-color: #;} 
 	
 /* Container for skill bar*/
@@ -247,10 +261,12 @@ body {
 	 }
 	
 	nav { 
-	background-color:white;
-	height:125px;
-	width:125px;
-	color:blue;
+	background-color:lightblue;
+	text-color:white;
+	height:40px;
+	margin: 1px;
+	border-radius: 10px;
+
 	}
 	
 	li a{
@@ -269,9 +285,12 @@ body {
 	}
 	
 	.navlist{  
-	text-align:left; 
+	display:inline-block; 
+	width:90px;  
+	text-align:center; 
 	text-decoration:none;
-	margin:1px;
-	
+	margin:10px;
+	border-radius: 10px;
+
 
 	}
