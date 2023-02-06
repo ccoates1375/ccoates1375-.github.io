@@ -5,7 +5,282 @@
 	<meta name="robots" content="noindex,nofollow">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="style.css" type="text/css">
+	
+<style>
+header, footer{
+	color:lightslategray;
+	margin: 15px;
+}
+footer p{
+	text-align: center;
+	position: static;
+
+}
+nav { 
+	background-color:lightslategray;
+	height:30px;
+	border-radius: 10px;
+}	
+li a{
+	text-decoration: none;
+}		
+li a:visited{
+	color: white;
+	text-decoration: none;
+}
+li a:hover{
+	color:white;
+	font-weight: bold;
+}
+body {
+    padding: 1rem;
+	text-decoration: none;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans",   Verdana, "sans-serif";
+}
+h2 {
+	text-align: left;
+	color: lightblue;
+}
+article img {
+	width: 99%;
+	height: fit-content;
+	border-radius: 30px;
+}
+fieldset{
+	border-radius:7px;
+	width: 300px;
+	margin-bottom: 20px;
+}
+label{
+    display: inline-block;
+    width: 250px;
+}
+input{
+	margin:10px;
+}
+ul{
+	list-style-image: url('images/small-sun.jpg');
+}
+article li{
+	margin:30px;
+  }
+.disclaimer{
+	font-style: italic;
+}
+.grid-container article {
+	margin: auto;
+	border-radius: 45px;
+	padding-top:10px;
+	padding-left:20px;
+	padding-right:20px;
+	height:98%;
+	border: thin solid lightblue;
+	box-shadow: 4px 7px lightblue;
+}	
+.grid-container {
+	display: grid;
+	grid-template-columns: repeat(4, 2fr);
+	flex-direction: column;
+}	
+.blank{
+	width: 325px;
+	height: 125px;
+}
+.blankprofile {
+	width: 120px;
+	height: 120px;
+	border-radius: 10px;
+	margin: 20px;
+}
+.navlist {
+	display: inline-block;
+	width: 150px;
+	text-align: center;
+	text-decoration: none;
+	margin: 1px;
+}
+.buttons{							
+	padding-left:100px;;
+}
+.modal {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	padding-top: 100px;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+.modal-content {
+	position: relative;
+	background-color: lightgrey;
+	padding: 20px;
+	margin: auto;
+	width: 75%;
+	-webkit-animation-name: animatetop;
+	-webkit-animation-duration: 0.4s;
+	animation-name: animatetop;
+	animation-duration: 0.4s;
+	border-radius:9px;
+}
+@-webkit-keyframes animatetop {
+	from {
+	  top: -300px;
+	  opacity: 0;
+	}
+	to {
+	  top: 0;
+	  opacity: 1;
+	}
+}
+
+.modal-content a:hover {
+	color: lightblue;
+	text-decoration: bold;
+  }	
+
+.modal-content a {
+	color: white;
+  }	
+
+/* close modal button*/
+.close {
+	color: black;
+	float: right;
+	cursor: pointer;
+	}
+
+/*links on FAQ page*/
+.myBtn_multi:hover {
+	color:lightblue;
+	cursor: pointer;
+}
+	
+	
+
+	@media screen and (min-width: 280px) {
+		.grid-container {
+		  grid-auto-rows: minmax(300px, auto);
+		  grid-template-columns: repeat(1, 3fr);
+		  flex-direction: column;
+		  grid-gap:30px;
+		}
+		#toggle {
+		  display: block;
+		  position: absolute;
+		  top: 165px;
+		  left: 50px;
+		  z-index: 1;
+		  -webkit-user-select: none;
+		  user-select: none;
+		}
+	  
+		#toggle a {
+		  text-decoration: none;
+		  color: black;
+		  transition: color 0.2s ease;
+		}
+	  
+		#toggle a:hover {
+		  color: whitesmoke;
+		}
+	  
+		#toggle input {
+		  display: block;
+		  width: 30px;
+		  height: 30px;
+		  position: absolute;
+		  left: -5px;
+		  cursor: pointer;
+		  opacity: 0;
+		  z-index: 2;
+		  -webkit-touch-callout: none;
+		}
+	  
+		#toggle span {
+		  display: block;
+		  width: 30px;
+		  height: 3px;
+		  margin-bottom: 6px;
+		  position: relative;
+		  background: lightgrey;
+		  border-radius: 7px;
+		  z-index: 1;
+		  transform-origin: 0px 0px;
+		  transition: transform 0.5s cubic-bezier(1.0, 0.125, 0.05, 10.0),
+					  background 0.5s cubic-bezier(1.0, 0.125, 0.05, 10.0),
+					  opacity 0.55s ease;
+		}
+	  
+		#toggle span:first-child {
+		  transform-origin: 0% 0%;
+		}
+	  
+		#toggle span:nth-last-child(2) {
+		  transform-origin: 0% 100%;
+		}
+	  
+		#toggle input:checked ~ span {
+		  opacity: 1;
+		  transform: rotate(45deg) translate(-2px, -1px);
+		  background: black;
+		}
+	  
+		#toggle input:checked ~ span:nth-last-child(3) {
+		  opacity: 0;
+		  transform: rotate(0deg) scale(0.2, 0.2);
+		}
+	  
+		#toggle input:checked ~ span:nth-last-child(2) {
+		  transform: rotate(-45deg) translate(0, -1px);
+		}
+	  
+		#menu {
+		  position: absolute;
+		  width: 110px;
+		  margin: -50px 0 0 -50px;
+		  padding: 50px;
+		  padding-top: 80px;
+		  border-radius: 9px;
+		  background: lightgrey;
+		  list-style-type: none;
+		  -webkit-font-smoothing: antialiased;
+		  transform-origin: 0% 0%;
+		  transform: translate(-100%, 0);
+		  transition: transform 0.5s cubic-bezier(1.0, 0.2, 0.05, 1.0);
+		}
+	
+		#menu li {
+		  padding: 10px 0;
+		  font-size: 20px;
+	    }
+	  
+	  	#toggle input:checked ~ ul {
+		  transform: none;
+	    }
+
+	}	  
+
+	@media screen and (min-width: 650px) {
+		.grid-container {
+			grid-auto-rows: minmax(300px, auto);
+			grid-template-columns: repeat(2, 3fr);
+			flex-direction: column;
+		}
+	}
+	  
+	@media screen and (min-width: 960px) {
+		.grid-container {
+ 			grid-auto-rows: minmax(300px, auto);
+  			grid-template-columns: repeat(3, 3fr);
+  			flex-direction: column;
+		}
+
+	} 
+</style>
 </head>
 
 <body>
