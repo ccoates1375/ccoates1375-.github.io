@@ -1,62 +1,80 @@
-
-
-
-
-
-
+<!DOCTYPE html>
+<html>
 <head>	
 	<title>Home</title>
 	<meta name="robots" content="noindex,nofollow">
-
-
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="SHINE.site/styles.css" type="text/css">
+	<link rel="stylesheet" href="style.css" type="text/css">
 </head>
 
-
 <body>
-	
-<header> 
+
+<header>
 <div class="logo">
-	<a href="SHINE.site/index.html"><img src="SHINE.site/images/newSHINELogo.png" alt="SHINE Logo" width="100" height="100"></a>
-	
+	<a href="index.html"><img src="images/shine-logo.jpg" alt="SHINE Logo" width="100" height="100"></a>
 </div>
-	
 </header>
-	
-<nav> 
-   <div>
-	<ul>
-	    <li class="navlist"><a href="SHINE.site/index.html">Home</a></li>
-	    <li class="navlist"><a href="SHINE.site/pages/AboutUs.html">About Us</a></li>
-	    <li class="navlist"><a href="SHINE.site/pages/Volunteer.html">Volunteer</a></li>
-            <li class="navlist"><a href="SHINE.site/pages/FAQ.html">FAQ</a></li>
-	    <li class="navlist"><a href="SHINE.site/pages/Contact.html">Contact</a></li>
-	</ul>
-   </div>
+			
+<nav role="navigation">
+	<div id="toggle">
+	  
+	  <input type="checkbox" />
+	  <span></span>
+	  <span></span>
+	  <span></span>
+	  
+	  <ul id="menu">
+		<li class="navlist"><a href="index.html">Home</a></li>
+		<li class="navlist"><a href="pages/AboutUs.html">About Us</a></li>
+	    <li class="navlist"><a href="pages/Volunteer.html">Volunteer</a></li>
+		<li class="navlist"><a href="pages/FAQ.html">FAQ</a></li>
+		<li class="navlist"><a href="pages/Contact.html">Contact</a></li>
+	  </ul>
+	</div>
 </nav>
 
-		
-<div class="artborder">	
-	
+
+<article><p class="disclaimer">This site was built for a class project and is not associated with any actual organization.</p></article>
 
 
-	
-<article>
-	<h2>Welcome to the future home of SHINE.</h2>
-	<h2>Feel free to look around but keep in mind we are under construction...</h2>		
-</article>
-	
+ <main class="grid-container">
 
-</div>	
-		
-<footer>
+	<article> 
+	  <h2>How private citizens are taking Rhode Island’s housing crisis into their own hands</h2>
+	  <p>Residents who never envisioned their lives on the streets are being pushed out of homes and others are becoming chronically unhoused. David Gerard O’Connor is trying to help with Operation Hunker Down, a makeshift shelter he opened on his own.</p>
+	  <a href="https://www.bostonglobe.com/2022/02/15/metro/ris-housing-crisis-becomes-critical-private-citizens-are-addressing-it-their-own/"><img src="https://bostonglobe-prod.cdn.arcpublishing.com/resizer/4NpUScppm_D_MdhrvhJ6os9vtng=/600x0/cloudfront-us-east-1.images.arcpublishing.com/bostonglobe/2WEQ3RCSBIJC37R2C6IJRGIFLI.jpg" alt="SHINE Logo" width="100" height="200"></a>
+	  <p><i>Source: </i>Boston Globe</p>	
+	</article>
+	
+	<article>
+	  <h2>Testimonials</h2>
+	  <p>“They need a lot. But they are doing the work. They are sheltering people. They’re the ones getting it done right now.”</p> 
+	  <p><i>-Ehren Hunt, Housing Specialist at Tri-County Community Action Agency</i></p>
+	</article>
+	
+	<article>
+      <h2>Services</h2>
+	
+	  <p><span>Here are some resources we offer:</span></p>
+	
+	  <ul>
+	   <li>Connecting homeowners with skilled workers adding value to their homes</li>
+	   <li>Providing affordable housing for boarders</li>	
+	   <li>WrapAround Services</li>
+	   <li>Recovery Services</li>
+	   <li>Safety, Shelter & Community</li>
+	  </ul>
+	</article>
+	
+ </main>
+
+   <footer>
 	<p>
-	&copy; SHINE.site 2022 a 501(c)3 This website is under construction. 
+		&copy 2022 This site is under construction. 
 	</p>		
-</footer>
+   </footer>
 		
-
-</body>
+  </body>
 		
+</html>
