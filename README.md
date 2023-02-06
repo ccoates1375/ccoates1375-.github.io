@@ -35,16 +35,16 @@ Clone the repository to your local machine and open the index.html file in a web
 <a href="https://ccoates1375.github.io/SHINE.site/index.html">Home Page</a></li>
 This is a simple homepage for a class project that contains a main section with articles showcasing various aspects of the project such as news, testimonials and services.
 
-**About Us Page**
+[**About Us Page**](https://ccoates1375.github.io/SHINE.site/pages/AboutUs.html)
 The page showcases information about the team behind the website and their backgrounds. The main section displays articles containing images and brief biographies of the team members. The profiles for the team members and the logo image are currently placeholders and will be updated with actual content at a later time.
 
-**Volunteer Page** 
+[**Volunteer Page** ](https://ccoates1375.github.io/SHINE.site/pages/Volunteer.html)
 This page provides a form for visitors to sign up to become volunteers. It contains fields where users can provide their personal information such as first name, last name, occupation, email, and phone number. The page also has a list of checkboxes asking users if they have skills in various trades such as painting, plumbing, carpentry, etc. The form uses HTML5 form validation attributes such as type="email" for the email field and pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" for the phone number field. Users can also describe the reason for their message in a textarea field. The form data is not submitted to a server and is only used to send an email to the admin.
 
-**FAQ Page**
+[**FAQ Page**](https://ccoates1375.github.io/SHINE.site/pages/FAQ.html)
 This page is for frequently asked questions. The page contains a list of five FAQs with accompanying JavaScript modal windows that display the answers along with links to pages that may help.  
 
-**Contact Page**
+[**Contact Page**](https://ccoates1375.github.io/SHINE.site/pages/Contact.html)
 This page provides a form for users to provide their personal information. There are input fields for first name, last name, and email which are required fields and the others are optional. The form also uses HTML5 form validation attributes such as type="email" for the email field and pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" for the phone number field. Users can also describe the reason for their message in a textarea field. The form data is not submitted to a server and is only used to send an email to the admin.
 
 
