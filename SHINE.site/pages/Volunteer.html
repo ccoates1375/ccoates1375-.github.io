@@ -5,65 +5,74 @@
 	<meta name="robots" content="noindex,nofollow">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="../styles.css" type="text/css">
+	<link rel="stylesheet" href="../style.css" type="text/css">
 </head>
 
 <body>
 	
 <header> 
 <div class="logo">
-	<a href="../index.html"><img src="../images/newSHINELogo.png" alt="SHINE Logo" width="100" height="100"></a>
+	<a href="../index.html"><img src="../images/shine-logo.jpg" alt="SHINE Logo" width="100" height="100"></a>
 </div>
 	
 </header>
 	
-<nav> 
-   <div>
-	<ul>
-	    <li class="navlist"><a href="../index.html">Home</a></li>
-	    <li class="navlist"><a href="AboutUs.html">About Us</a></li>
-	    <li class="navlist"><a href="Volunteer.html">Volunteer</a></li>
-	    <li class="navlist"><a href="FAQ.html">FAQ</a></li>
-	    <li class="navlist"><a href="Contact.html">Contact</a></li>
-	</ul>
-   </div>
+<nav role="navigation">
+	<div id="toggle">
+	  
+	  <input type="checkbox" />
+	
+	  <span></span>
+	  <span></span>
+	  <span></span>
+	  
+	  <ul id="menu">
+		<li class="navlist"><a href="../index.html">Home</a></li>
+		<li class="navlist"><a href="AboutUs.html">About Us</a></li>
+	  <li class="navlist"><a href="Volunteer.html">Volunteer</a></li>
+		<li class="navlist"><a href="FAQ.html">FAQ</a></li>
+		<li class="navlist"><a href="Contact.html">Contact</a></li>
+	  </ul>
+	</div>
 </nav>
-		
-<div class="artborder">	
-<main class="vol-grid-container">	
-	
+			
 <h2>Sign up to become a volunteer!</h2>
-	
-<div>	
-	
-	<fieldset>
+
+<main class="grid-container">	
+  
+<article>	
+  
+<fieldset>
+
 	<legend>Contact Info</legend>
-	<form name="pure-form" action="mailto:" onsubmit="return validateForm()" method="post">
+  <form name="pure-form" action="mailto:" onsubmit="return validateForm()" method="post"></form>
 
 	<label for="fName">First Name:</label> 
-	<input type="text" id="fName" name="fName" maxlength="40-80" placeholder="">
-  	<br><br>
+	<input type="text" id="fName" name="fName" maxlength="40-80" placeholder="(Required)">
+  <br><br>
 	
 	<label for="lName">Last Name:</label> 
-	<input type="text" id="lName" name="lName" maxlength="40-80">
-  	<br><br>
+	<input type="text" id="lName" name="lName" maxlength="40-80" placeholder="(Required)">
+  <br><br>
 	
 	<label for=occupation>Occupation:</label> 
 	<input type="text" id="occupation" name="occupation" maxlength="40-80"
-		   placeholder="">
-  	<br><br>
+	placeholder="(Optional)">
+  <br><br>
 	
 	<label>Email: </label>
-	<input type="email" id="email" name="userEmail" maxlength="20" >
+	<input type="email" id="email" name="userEmail" maxlength="20" placeholder="(Required)">
 	<br><br> 
 	
 	<label for="phone">Phone Number:</label>
-	<input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="optional">
+	<input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="(Optional)">
 	<br><br>
 </fieldset>
-</div>
-		
-<div>	
+
+</article>	
+
+<article>	
+
 <fieldset>
   <legend>Are you a skilled laborer? </legend>
   <input type="checkbox" id="laborTitle1" name="laborTitle1" value="Painter">
@@ -88,59 +97,25 @@
   <label for="laborTitle7">HVAC</label><br>
 	
   <input type="checkbox" id="laborTitle8" name="laborTitle8" value="Cleaner">
-  <label for="laborTitle7">Cleaner</label><br>
+  <label for="laborTitle8">Cleaner</label><br>
 	
-   <input type="checkbox" id="laborTitle9" name="laborTitle9" value="Mover">
-  <label for="laborTitle7">Mover</label><br>
+  <input type="checkbox" id="laborTitle9" name="laborTitle9" value="Mover">
+  <label for="laborTitle9">Mover</label><br>
 	
-  	
-  <input type="checkbox" id="laborTitle8" name="laborTitle8" value="Other">
-  <label for="laborTitle8">Other</label><br>
+  <input type="checkbox" id="laborTitle8" name="laborTitle10" value="Other">
+  <label for="laborTitle10">Other</label><br>
 	
 </fieldset><br>
-	
-</div>
-		
-<div>	
-<fieldset>
-  <legend>Administrative tasks </legend>
-  <input type="checkbox" id="laborTitle1" name="laborTitle1" value="Painter">
-  <label for="laborTitle1">Profile Developer</label><br>
-	
-  <input type="checkbox" id="laborTitle2" name="laborTitle2" value="Electrician">
-  <label for="laborTitle2">Intake Volunteer</label><br>
-	
-  <input type="checkbox" id="laborTitle3" name="laborTitle3" value="Plumber">
-  <label for="laborTitle3">Party Planner</label><br>
-	
-  <input type="checkbox" id="laborTitle4" name="laborTitle4" value="Carpenter">
-  <label for="laborTitle4">Carpenter</label><br>
-	
-  <input type="checkbox" id="laborTitle5" name="laborTitle5" value="Contractor">
-  <label for="laborTitle5">Lobbying</label><br>
-	
-  <input type="checkbox" id="laborTitle6" name="laborTitle6" value="Architect">
-  <label for="laborTitle6">Running for Office</label><br>
-	
-  <input type="checkbox" id="laborTitle8" name="laborTitle8" value="Cleaner">
-  <label for="laborTitle7">Cleaner</label><br>
-	
-   <input type="checkbox" id="laborTitle9" name="laborTitle9" value="Mover">
-  <label for="laborTitle7">Mover</label><br>
-	
-  	
-  <input type="checkbox" id="laborTitle8" name="laborTitle8" value="Other">
-  <label for="laborTitle8">Other</label><br>
-  
-</fieldset><br>
-	
-</div>
-		
-<div>
+
+</article>
+
+<article>		
+
 <fieldset>
   <legend>Are you a homeowner?</legend>
 	
   <label for="skills">Select one: </label><br>
+  
   <select name="skills" id="skills" >
   <option value="blank"></option>
   <option value="yesSpareApartment.">Yes, and I have a spare apartment.</option>
@@ -152,13 +127,12 @@
   </select>
   
 </fieldset><br>
-</div>
 
-<div>
 <fieldset>
 	<legend>How did you hear about us?</legend>
 
   <label for="skills">Select one: </label><br>
+  
   <select name="reach" id="reach">
   <option value="blank"></option>
   <option value="wordOfMouth">Word of Mouth</option>
@@ -170,43 +144,31 @@
   </select>
 
 </fieldset><br>
-</div>
-		
-<div>		
-<fieldset>
-	<legend>Breifly describe your interest in volunteering for S.H.I.N.E.</legend>
-	<textarea id="inputField" rows=10 cols="40" maxlength="200">
-	</textarea>
-
-	<div class="buttons">		
-  <input type="submit" value="Submit">
-  <input type="reset"  value="Reset">
-</div>
-</fieldset>
-</div>	
-			
-</form>
 	
-</div>	
+<fieldset>
+    <legend>Describe your interest in volunteering</legend>
+    
+    <textarea id="inputField" rows=10 cols="40" maxlength="200">
+    </textarea>
+  
+    <div class="buttons">		
+    <input type="submit" value="Submit">
+    </div>
+  
+</fieldset>
+
+</article>	
+</form>
 </main>		
+
 <footer>
 	<p>
-	&copy; SHINE.org 501(c)3 2022 This site is under construction... # [ccoates1375].github.io
+    &copy 2022 This site is under construction.
 	</p>		
 </footer>
 		
-</div>
-	
 <script>
-	
-	if(document.getElementById('yes').checked) {
-  //yes radio button is checked
-}
-	else if(document.getElementById('no').checked) {
-  //no radio button is checked
-}
-	
-	
+
 function validateForm() {
   let x = document.forms["pure-form"]["fname"].value;
   if (x == "") {
@@ -214,24 +176,6 @@ function validateForm() {
     return false;
   }
 }
-	
-function myFunction() {
-  var x = document.getElementById("myEmail").name;
-  document.getElementById("password").innerHTML = x;
-}
-	var password = document.getElementById("password")
-   confirm_password = document.getElementById("confirm_password");
-
-function validatePassword(){
-  if(password.value != confirm_password.value) {
-    confirm_password.setCustomValidity("Passwords Don't Match");
-  } else {
-    confirm_password.setCustomValidity('');
-  }
-}
-
-password.onchange = validatePassword;
-confirm_password.onkeyup = validatePassword;
 
 </script>
 	

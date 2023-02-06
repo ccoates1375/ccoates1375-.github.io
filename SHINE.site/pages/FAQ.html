@@ -1,195 +1,130 @@
 <!DOCTYPE html>
 
-<!DOCTYPE html>
-
 <head>	
 	<title>FAQ</title>
 	<meta name="robots" content="noindex,nofollow">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="../styles.css" type="text/css">
+	<link rel="stylesheet" href="../style.css" type="text/css">
 </head>
 
 <body>
 	
 <header> 
 <div class="logo">
-	<a href="../index.html"><img src="../images/newSHINELogo.png" alt="SHINE Logo" width="100" height="100"></a>
+	<a href="../index.html"><img src="../images/shine-logo.jpg" alt="SHINE Logo" width="100" height="100"></a>
 </div>
 	
 </header>
 	
-<nav> 
-   <div>
-	<ul>
-	    <li class="navlist"><a href="../index.html">Home</a></li>
-	    <li class="navlist"><a href="AboutUs.html">About Us</a></li>
+<nav role="navigation">
+	<div id="toggle">
+	  
+	  <input type="checkbox" />
+	  <span></span>
+	  <span></span>
+	  <span></span>
+	  
+	  <ul id="menu">
+		<li class="navlist"><a href="../index.html">Home</a></li>
+		<li class="navlist"><a href="AboutUs.html">About Us</a></li>
 	    <li class="navlist"><a href="Volunteer.html">Volunteer</a></li>
-	    <li class="navlist"><a href="FAQ.html">FAQ</a></li>
-	    <li class="navlist"><a href="Contact.html">Contact</a></li>
-	</ul>
-   </div>
+		<li class="navlist"><a href="FAQ.html">FAQ</a></li>
+		<li class="navlist"><a href="Contact.html">Contact</a></li>
+	  </ul>
+	</div>
 </nav>
-	
-<div class="artborder">	
-	
-<main class="vol-grid-container">
 
-<h2>Frequently Asked Questions...</h2>
-	
+<h2>Frequently Asked Questions...</h2>	
+
+<main class="grid-container">
+
+<article class="blank">	
 	<ul>
-    <!-- Trigger/Open The Modal -->
-   	    <li class="myBtn_multi">Is your organization a 501c3?</li>
-    	    <li class="myBtn_multi">What is your organization’s mission?</li>
-	    <li class="myBtn_multi">Who runs the organization?</li>
-	    <li class="myBtn_multi">How can I get involved in the organization’s mission?</li>
+   	    <li class="myBtn_multi">What services do you provide?</li>
+    	<li class="myBtn_multi">What is your organization’s mission?</li>
+	    <li class="myBtn_multi">How can I become a volunteer?</li>
 	    <li class="myBtn_multi">How can I partner with the organization?</li>
+        <li class="myBtn_multi">How can I get in touch with a staff member?</li>
 	</ul>
-    <!-- The Modal -->
+</article>
+
     <div class="modal modal_multi">
-
-        <!-- Modal content -->
         <div class="modal-content">
-            <span class="close close_multi">×</span>
-            <p>Some text in the Modal..</p>
+            <span class="close close_multi">x</span>
+            <p>Please see the Services section of our <a href="../index.html">Home</a> page.</p>
         </div>
-
     </div>
 
-    <!-- The Modal -->
     <div  class="modal modal_multi">
-
-        <!-- Modal content -->
         <div class="modal-content">
-            <span class="close close_multi">×</span>
-            <p>Some text in the Modal..2</p>
+            <span class="close close_multi">x</span>
+            <p>Check out our Mission Statment on the <a href="../index.html">Home</a> page.</p>
         </div>
-
     </div>
 	
-	<!-- The Modal -->
     <div  class="modal modal_multi">
-
-        <!-- Modal content -->
         <div class="modal-content">
-            <span class="close close_multi">×</span>
-            <p>Some text in the Modal..3</p>
+            <span class="close close_multi">x</span>
+            <p>Fill out the form on our <a href="volunteer.html">Volunteer</a> page.</p>
         </div>
-
     </div>
 	
-	<!-- The Modal -->
     <div  class="modal modal_multi">
-
-        <!-- Modal content -->
         <div class="modal-content">
-            <span class="close close_multi">×</span>
-            <p>Fill out the form on our <a href="Volunteer.html">Volunteer</a> page.</p>
+            <span class="close close_multi">x</span>
+            <p>Send us a message on our <a href="contact.html">Contact</a> page.</p>
         </div>
-
     </div>
-	
-	<!-- The Modal -->
+
     <div  class="modal modal_multi">
-
-        <!-- Modal content -->
         <div class="modal-content">
-            <span class="close close_multi">×</span>
-            <p>Some text in the Modal..5</p>
+            <span class="close close_multi">x</span>
+            <p>Find our number on our <a href="contact.html">Contact</a> page.</p>
         </div>
-
     </div>
-	
+
 </main>
-</div>
+
 <footer>
 	<p>
-	&copy; SHINE.site 2022 a 501(c)3 This website is under construction. 
+        &copy 2022 This site is under construction. 
 	</p>		
 </footer>
 		
 <script>
-        // Get the modal
-
-        var modalparent = document.getElementsByClassName("modal_multi");
-
-        // Get the button that opens the modal
-
-        var modal_btn_multi = document.getElementsByClassName("myBtn_multi");
-
-        // Get the <span> element that closes the modal
-        var span_close_multi = document.getElementsByClassName("close_multi");
-
-        // When the user clicks the button, open the modal
-        function setDataIndex() {
-
-            for (i = 0; i < modal_btn_multi.length; i++)
-            {
-                modal_btn_multi[i].setAttribute('data-index', i);
-                modalparent[i].setAttribute('data-index', i);
-                span_close_multi[i].setAttribute('data-index', i);
-            }
-        }
-
-
-
-        for (i = 0; i < modal_btn_multi.length; i++)
-        {
-            modal_btn_multi[i].onclick = function() {
-                var ElementIndex = this.getAttribute('data-index');
-                modalparent[ElementIndex].style.display = "block";
-            };
-
-            // When the user clicks on <span> (x), close the modal
-            span_close_multi[i].onclick = function() {
-                var ElementIndex = this.getAttribute('data-index');
-                modalparent[ElementIndex].style.display = "none";
-            };
-
-        }
-
-        window.onload = function() {
-
-            setDataIndex();
-        };
-
-        window.onclick = function(event) {
-            if (event.target === modalparent[event.target.getAttribute('data-index')]) {
-                modalparent[event.target.getAttribute('data-index')].style.display = "none";
-            }
-
-            // OLD CODE
-            if (event.target === modal) {
-                modal.style.display = "none";
-            }
-        };
-
-//XXXXXXXXXXXXXXXXXXXXXXX    Modified old code    XXXXXXXXXXXXXXXXXXXXXXXXXX
-
-// Get the modal
-
-        var modal = document.getElementById('myModal');
-
-// Get the button that opens the modal
-        var btn = document.getElementById("myBtn");
-
-// Get the <span> element that closes the modal
-        var span = modal.getElementsByClassName("close")[0]; // Modified by dsones uk
-
-// When the user clicks on the button, open the modal
-
-        btn.onclick = function() {
-
-            modal.style.display = "block";
-        }
-
-// When the user clicks on <span> (x), close the modal
-        span.onclick = function() {
-            modal.style.display = "none";
-        }
-
-
-
+    const modalparent = document.getElementsByClassName("modal_multi");
+    const modalBtnMulti = document.getElementsByClassName("myBtn_multi");
+    const spanCloseMulti = document.getElementsByClassName("close_multi");
+    
+    function setDataIndex() {
+      Array.from(modalBtnMulti).forEach((btn, i) => {
+        btn.setAttribute("data-index", i);
+        modalparent[i].setAttribute("data-index", i);
+        spanCloseMulti[i].setAttribute("data-index", i);
+      });
+    }
+    
+    Array.from(modalBtnMulti).forEach((btn, i) => {
+      btn.addEventListener("click", () => {
+        const index = btn.getAttribute("data-index");
+        modalparent[index].style.display = "block";
+      });
+    
+      spanCloseMulti[i].addEventListener("click", () => {
+        const index = btn.getAttribute("data-index");
+        modalparent[index].style.display = "none";
+      });
+    });
+    
+    window.addEventListener("load", setDataIndex);
+    
+    window.addEventListener("click", event => {
+      const targetIndex = event.target.getAttribute("data-index");
+      if (event.target === modalparent[targetIndex]) {
+        modalparent[targetIndex].style.display = "none";
+      }
+    });
     </script>
 </body>
 		
