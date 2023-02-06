@@ -32,7 +32,7 @@ Clone the repository to your local machine and open the index.html file in a web
 
 ## Table of Contents
 
-<li class="navlist"><a href="index.html">Home</a></li>
+<a href="https://ccoates1375.github.io/SHINE.site/index.html)">Home Page</a></li>
 This is a simple homepage for a class project that contains a main section with articles showcasing various aspects of the project such as news, testimonials and services.
 
 **About Us Page**
