@@ -1,4 +1,4 @@
-## SHINE README
+### SHINE README
 
 ## Description
 * This website is focused on addressing housing and shelter needs in the community. The website features information about services, including connecting homeowners with skilled workers and offering affordable housing options, as well as testimonials and news articles related to the mission. The website has a professional design and is cross-browser compatible.
@@ -22,18 +22,17 @@ Clone the repository to your local machine and open the index.html file in a web
 * The footer notice indicates that the site is under construction.
 
 ## Technology Stack
-• HTML5
-• CSS3
-• JavaScript
+* HTML5
+* CSS3
+* JavaScript
 
 ## Meta Data
-• The page contains meta information specifying the character set as utf-8 and the viewport width.
-• The meta information also contains a "robots" tag with "noindex, nofollow" to prevent the page from being indexed by search engines. 
+* The page contains meta information specifying the character set as utf-8 and the viewport width.
+* The meta information also contains a "robots" tag with "noindex, nofollow" to prevent the page from being indexed by search engines. 
 
 ## Table of Contents
 
-
-**Homepage**
+<li class="navlist"><a href="index.html">Home</a></li>
 This is a simple homepage for a class project that contains a main section with articles showcasing various aspects of the project such as news, testimonials and services.
 
 **About Us Page**
