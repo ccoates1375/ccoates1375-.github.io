@@ -1,34 +1,37 @@
-SHINE README
+**SHINE** README
 
-Description
+**Description**
 This website is focused on addressing housing and shelter needs in the community. The website features information about services, including connecting homeowners with skilled workers and offering affordable housing options, as well as testimonials and news articles related to the mission. The website has a professional design and is cross-browser compatible.
 
-Notes
+**Notes**
 _This was a class project and the content of this website is for demonstration purposes only and is not associated with any actual organization._
 _The site was recently updated to use media queries for responsive articles, enabling the page to better adjust to different screen sizes. The code also contains JavaScript for a modal window that appears when a user clicks on a FAQ and a small responsive toggle navigation menu for mobile devices._
 
 **Usage**
 Clone the repository to your local machine and open the index.html file in a web browser to view the website. The external CSS file is linked to the HTML file and is located in the same directory or simply visit the live site at: https://ccoates1375.github.io/SHINE.site
 
-Features
-• A header with a logo linking to the homepage.
-• Media queries to change the styles of the elements based on the screen size.
-• A navigation bar with links to other pages on the website including Home, About Us, Volunteer, FAQ, and Contact.
-• The navigation bar is also responsive and collapses into a toggle menu on smaller screens.
-• A main section with articles showcasing various aspects of the project such as news, testimonials and services.
-• About Us page with images and brief biographies of the team members.
-• Forms for users to sign up to volunteer and get in touch.
-• A FAQ page with responsive JavaScript modal windows that contain answers with links to help.
-• The footer notice indicates that the site is under construction.
+## Features
+* A header with a logo linking to the homepage.
+* Media queries to change the styles of the elements based on the screen size.
+* A navigation bar with links to other pages on the website including Home, About Us, Volunteer, FAQ, and Contact.
+* The navigation bar is also responsive and collapses into a toggle menu on smaller screens.
+* A main section with articles showcasing various aspects of the project such as news, testimonials and services.
+* About Us page with images and brief biographies of the team members.
+* Forms for users to sign up to volunteer and get in touch.
+* A FAQ page with responsive JavaScript modal windows that contain answers with links to help.
+* The footer notice indicates that the site is under construction.
 
-Technology Stack
+**Technology Stack**
 • HTML5
 • CSS3
 • JavaScript
 
-Meta Data
+**Meta Data**
 • The page contains meta information specifying the character set as utf-8 and the viewport width.
 • The meta information also contains a "robots" tag with "noindex, nofollow" to prevent the page from being indexed by search engines. 
+
+Table of Contents
+
 
 **Homepage**
 This is a simple homepage for a class project that contains a main section with articles showcasing various aspects of the project such as news, testimonials and services.
