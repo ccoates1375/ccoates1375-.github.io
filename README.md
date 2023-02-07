@@ -39,7 +39,7 @@ _The site was recently updated to use media queries for responsive articles, ena
 ## Table of Contents
 
 [**Home Page**](https://ccoates1375.github.io/SHINE.site/index.html)
-This is a simple homepage for a class project that contains a main section with articles showcasing various aspects of the project such as news, testimonials and services.
+This is a simple homepage for a class project that contains a main section with articles showcasing various aspects of the project such as news, testimonials and services focused on addressing housing and shelter needs in the community.
 
 [**About Us Page**](https://ccoates1375.github.io/SHINE.site/pages/AboutUs.html)
 The page showcases information about the team behind the website and their backgrounds. The main section displays articles containing images and brief biographies of the team members. The profiles for the team members and the logo image are currently placeholders and will be updated with actual content at a later time.
