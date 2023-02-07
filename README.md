@@ -27,7 +27,7 @@ Clone the repository to your local machine and open the index.html file in a web
 * JavaScript
 
 ## Meta Data
-* The page contains meta information specifying the character set as utf-8 and the viewport width.
+* The page contains meta information specifying the character set as utf-8 and the "meta name" attribute with "viewport" content sets the viewport (the user's visible area of a web page) to the width of the device being used to view the page, with an initial scale of 1.
 * The meta information also contains a "robots" tag with "noindex, nofollow" to prevent the page from being indexed by search engines. 
 
 ## Table of Contents
