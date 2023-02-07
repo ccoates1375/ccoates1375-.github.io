@@ -10,10 +10,10 @@ _The site was recently updated to use media queries for responsive articles, ena
 ## Usage
 * Clone the repository to your local machine using your preferred Git client or the command line.
 * Once the repository is cloned, navigate to the local repository folder on your computer.
-* Look for a file named "index.html". This file is the starting point for the website.
-* Open the "index.html" file in a web browser of your choice. Some popular web browsers include Google Chrome, Mozilla Firefox, and Microsoft Edge.
+* Look for a file named "index.html".
+* Open the "index.html" file in a web browser of your choice. It is compatible with Google Chrome, Mozilla Firefox, Microsoft Edge, Safari, Opera, iOS and Android.
 * The website should now be displayed in the browser. The visual appearance of the website is determined by an external CSS (Cascading Style Sheets) file that is linked to the HTML file. The CSS file is located in the same directory as the HTML file.
-* The pages for "About Us", "Volunteer", "FAQ", and "Contact" can be found in the "pages" folder within the repository. To view any of these pages, simply open the corresponding HTML file in a web browser.
+* The pages for "About Us", "Volunteer", "FAQ", and "Contact" can be found in the "pages" folder within the repository. To view any of these pages, open the corresponding HTML file in a web browser.
 _You can also simply visit the live site at: https://ccoates1375.github.io/SHINE.site._
 
 ## Features
