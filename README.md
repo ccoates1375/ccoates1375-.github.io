@@ -3,7 +3,7 @@
 ## Description
 * This website is focused on addressing housing and shelter needs in the community. The website features information about services, including connecting homeowners with skilled workers and offering affordable housing options, as well as testimonials and news articles related to the mission. The website has a professional design and is cross-browser compatible.
 
-**Notes
+** Notes:
 _This was a class project and the content of this website is for demonstration purposes only and is not associated with any actual organization._
 _The site was recently updated to use media queries for responsive articles, enabling the page to better adjust to different screen sizes. The code also contains JavaScript for a modal window that appears when a user clicks on a FAQ and a small responsive toggle navigation menu for mobile devices._
 
