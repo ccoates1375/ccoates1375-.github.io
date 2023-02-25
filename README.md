@@ -1,5 +1,5 @@
 # SHINE README
-
+* _Visit the live site at: https://ccoates1375.github.io/SHINE.site._
 ## Description
 * This website is focused on addressing housing and shelter needs in the community. The website features information about services, including connecting homeowners with skilled workers and offering affordable housing options, as well as testimonials and news articles related to the mission. The website has a professional design and is cross-browser compatible.
 
