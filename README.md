@@ -8,13 +8,14 @@ _This was a class project and the content of this website is for demonstration p
 _The site was recently updated to use media queries for responsive articles, enabling the page to better adjust to different screen sizes. The code also contains JavaScript for a modal window that appears when a user clicks on a FAQ and a small responsive toggle navigation menu for mobile devices._
 
 ## Usage
+* _You can simply visit the live site at: https://ccoates1375.github.io/SHINE.site._
 * Clone the repository to your local machine using your preferred Git client or the command line.
 * Once the repository is cloned, navigate to the local repository folder on your computer.
 * Look for a file named "index.html".
 * Open the "index.html" file in a web browser of your choice. It is compatible with Google Chrome, Mozilla Firefox, Microsoft Edge, Safari, Opera, iOS and Android.
 * The website should now be displayed in the browser. The CSS file is located in the same directory as the "index.html" file.
 * The pages for "About Us", "Volunteer", "FAQ", and "Contact" can be found in the "pages" folder within the repository.
-* _You can also simply visit the live site at: https://ccoates1375.github.io/SHINE.site._
+
 
 ## Features
 * Media queries to change the styles of the elements based on the screen size.
